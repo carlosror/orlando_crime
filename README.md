@@ -7,7 +7,7 @@ I wanted an Orange County equivalent of [this Hillsborough County website](http:
 
 ## Technologies
 
-[https://leanpub.com/rprogramming](R), [R Studio](https://www.rstudio.com/), [Shiny R server](http://shiny.rstudio.com/articles/), [Leaflet for R](http://rstudio.github.io/leaflet/).
+[R](https://leanpub.com/rprogramming), [R Studio](https://www.rstudio.com/), [Shiny R server](http://shiny.rstudio.com/articles/), [Leaflet for R](http://rstudio.github.io/leaflet/).
 
 ## References
 
