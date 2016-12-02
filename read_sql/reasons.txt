@@ -1,0 +1,40 @@
+[1]  vandalism/criminal mischief             suspicious incident                     residential alarm                     
+  [4]  person robbery                          mentally-ill person (non-violent)       rape                                  
+  [7]  theft                                   noise ordinance violation               trespasser                            
+ [10]  general disturbance                     battery                                 suspicious person                     
+ [13]  unknown trouble                         hit and run (minor)                     threats/assaults - armed              
+ [16]  accident (minor)                        domestic disturbance                    signal out                            
+ [19]  commercial alarm                        man down                                accident (injuries)                   
+ [22]  attempted suicide                       vehicle b&e                             suspicious vehicle                    
+ [25]  bank alarm                              accident with road blockage             911 hang up                           
+ [28]  check the well being of                 non-emergency assistance                stolen vehicle                        
+ [31]  disturbance involving tow truck/driver  threatening animal                      threats/assault                       
+ [34]  abandoned vehicle                       obstruction on highway                  drunk pedestrian                      
+ [37]  illegally parked cars                   door alarm                              drug violation                        
+ [40]  missing person - adult                  ambulance escort                        theft by shoplifting                  
+ [43]  residential b&e                         commercial b&e                          obscene/harassing phone calls         
+ [46]  nuisance animal                         child neglect                           fraud-counterfeit                     
+ [49]  general investigation                   battery - fight in progress             lost/found property                   
+ [52]  sick or injured person                  battery - cutting                       fire                                  
+ [55]  general disturbance - armed             recovered missing person                liquor law violation                  
+ [58]  house/business check                    missing person - juvenile               disabled occupied vehicle             
+ [61]  hit and run (injuries)                  direct traffic                          child abuse                           
+ [64]  fugitive from justice                   bomb threat                             reckless vehicle                      
+ [67]  dead person                             mentally-ill person (violent)           trash dumping                         
+ [70]  stalking                                stolen/lost tag                         hold-up alarm                         
+ [73]  vehicle alarm                           other sex crimes                        recovered stolen vehicle              
+ [76]  officer with prisoner                   accident (general disturbance)          solicitor                             
+ [79]  community orientated policing detail    deviate sexual activities               school zone crossing                  
+ [82]  hit and run with road blockage          bank robbery                            designated patrol area - available    
+ [85]  weapons/armed                           commercial robbery                      battery - shooting                    
+ [88]  impersonating police officer            home invasion                           prostitution                          
+ [91]  industrial accident                     arson fire                              attempted rape                        
+ [94]  designated patrol area                  suspicious boat                         suicide                               
+ [97]  car jacking                             prowler                                 drunk driver                          
+[100]  escaped prisoner                        kidnapping                              law enforcement officer escort        
+[103]  gambling                                bad check passed                        immediate backup                      
+[106]  illegal fishing                         reckless boat                           suspicious luggage                    
+[109]  recovered stolen/lost tag               designated patrol area - intersections  security checkpoint alarm             
+[112]  rush-officer needs help                 suspicious video                        murder                                
+[115]  k-9 requested                           dead animal                             drowning                              
+[118]  hitchhiker                              abandoned boat                          stopping vehicle   

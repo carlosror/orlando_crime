@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+<style>
+  table  {margin:auto; border: 1px solid black;}
+  th, td   {border: 1px solid black; text-align: center;}
+</style>
+<body>
+<table>
+	<tr>
+		<th>ID</th>
+		<th>Description</th>
+	<tr>
+		<td>1</td>
+		<td>suspicious incident</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>battery</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>stolen vehicle</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>general disturbance</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>suspicious person</td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td>rape</td>
+	</tr>
+	<tr>
+		<td>7</td>
+		<td>theft by shoplifting</td>
+	</tr>
+	<tr>
+		<td>8</td>
+		<td>threats/assualt</td>
+	</tr>
+	<tr>
+		<td>9</td>
+		<td>domestic disturbance</td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td>battery - cutting</td>
+	</tr>
+	<tr>
+		<td>11</td>
+		<td>person robbery</td>
+	</tr>
+	<tr>
+		<td>12</td>
+		<td>drunk pedestrian</td>
+	</tr>
+	<tr>
+		<td>13</td>
+		<td>residential b&e</td>
+	</tr>
+	<tr>
+		<td>14</td>
+		<td>residential alarm</td>
+	</tr>
+	<tr>
+		<td>15</td>
+		<td>theft</td>
+	</tr>
+	<tr>
+		<td>16</td>
+		<td>commercial alarm</td>
+	</tr>
+	<tr>
+		<td>17</td>
+		<td>trespasser</td>
+	</tr>
+	<tr>
+		<td>18</td>
+		<td>threatening animal</td>
+	</tr>
+	<tr>
+		<td>19</td>
+		<td>disabled occupied vehicle</td>
+	</tr>
+	<tr>
+		<td>20</td>
+		<td>noise ordinance violation</td>
+	</tr>
+	<tr>
+		<td>21</td>
+		<td>recovered stolen vehicle</td>
+	</tr>
+	<tr>
+		<td>22</td>
+		<td>accident (minor)</td>
+	</tr>
+	<tr>
+		<td>23</td>
+		<td>commercial robbery</td>
+	</tr>
+	<tr>
+		<td>24</td>
+		<td>check the well being of</td>
+	</tr>
+	<tr>
+		<td>25</td>
+		<td>vandalism/criminal mischief</td>
+	</tr>
+	<tr>
+		<td>26</td>
+		<td>vehicle b&e</td>
+	</tr>
+	<tr>
+		<td>27</td>
+		<td>911 hang up</td>
+	</tr>
+	<tr>
+		<td>28</td>
+		<td>abandoned vehicle</td>
+	</tr>
+	<tr>
+		<td>29</td>
+		<td>dead person</td>
+	</tr>
+	<tr>
+		<td>30</td>
+		<td>unknown trouble</td>
+	</tr>
+	<tr>
+		<td>31</td>
+		<td>suspicious vehicle</td>
+	</tr>
+	<tr>
+		<td>32</td>
+		<td>prowler</td>
+	</tr>
+	<tr>
+		<td>33</td>
+		<td>attempted suicide</td>
+	</tr>
+	<tr>
+		<td>34</td>
+		<td>accident with road blockage</td>
+	</tr>
+	<tr>
+		<td>35</td>
+		<td>accident (injuries)</td>
+	</tr>
+	<tr>
+		<td>36</td>
+		<td>obstruction on highway</td>
+	</tr>
+	<tr>
+		<td>37</td>
+		<td>general disturbance - armed</td>
+	</tr>
+	<tr>
+		<td>38</td>
+		<td>officer with prisoner</td>
+	</tr>
+	<tr>
+		<td>39</td>
+		<td>illegally parked cars</td>
+	</tr>
+	<tr>
+		<td>40</td>
+		<td>mentally-ill person (non-violent)</td>
+	</tr>
+	<tr>
+		<td>41</td>
+		<td>fugitive from justice</td>
+	</tr>
+	<tr>
+		<td>42</td>
+		<td>hit and run (minor)</td>
+	</tr>
+	<tr>
+		<td>43</td>
+		<td>weapons/armed</td>
+	</tr>
+	<tr>
+		<td>44</td>
+		<td>deviate sexual activities</td>
+	</tr>
+	<tr>
+		<td>45</td>
+		<td>solicitor</td>
+	</tr>
+	<tr>
+		<td>46</td>
+		<td>mentally-ill person (violent)</td>
+	</tr>
+	<tr>
+		<td>47</td>
+		<td>other sex crimes</td>
+	</tr>
+	<tr>
+		<td>48</td>
+		<td>man down</td>
+	</tr>
+	<tr>
+		<td>49</td>
+		<td>hitchhiker</td>
+	</tr>
+	<tr>
+		<td>50</td>
+		<td>ambulance escort</td>
+	</tr>
+	<tr>
+		<td>51</td>
+		<td>drug violation</td>
+	</tr>
+	<tr>
+		<td>52</td>
+		<td>fire</td>
+	</tr>
+	<tr>
+		<td>53</td>
+		<td>obscene/harassing phone calls</td>
+	</tr>
+	<tr>
+		<td>54</td>
+		<td>recovered missing person</td>
+	</tr>
+	<tr>
+		<td>55</td>
+		<td>reckless vehicle</td>
+	</tr>
+	<tr>
+		<td>56</td>
+		<td>non-emergency assistance</td>
+	</tr>
+	<tr>
+		<td>57</td>
+		<td>prostitution</td>
+	</tr>
+	<tr>
+		<td>58</td>
+		<td>door alarm</td>
+	</tr>
+	<tr>
+		<td>59</td>
+		<td>leo escort</td>
+	</tr>
+	<tr>
+		<td>60</td>
+		<td>fraud-counterfeit</td>
+	</tr>
+	<tr>
+		<td>61</td>
+		<td>school zone crossing</td>
+	</tr>
+	<tr>
+		<td>62</td>
+		<td>recovered stolen/lost tag</td>
+	</tr>
+	<tr>
+		<td>63</td>
+		<td>missing person - juvenile</td>
+	</tr>
+	<tr>
+		<td>64</td>
+		<td>child abuse</td>
+	</tr>
+	<tr>
+		<td>65</td>
+		<td>missing person - adult</td>
+	</tr>
+	<tr>
+		<td>66</td>
+		<td>direct traffic</td>
+	</tr>
+	<tr>
+		<td>67</td>
+		<td>bomb threat</td>
+	</tr>
+	<tr>
+		<td>68</td>
+		<td>child neglect</td>
+	</tr>
+	<tr>
+		<td>69</td>
+		<td>hold-up alarm</td>
+	</tr>
+	<tr>
+		<td>70</td>
+		<td>general investigation</td>
+	</tr>
+	<tr>
+		<td>71</td>
+		<td>lost/found property</td>
+	</tr>
+	<tr>
+		<td>72</td>
+		<td>drunk driver</td>
+	</tr>
+	<tr>
+		<td>73</td>
+		<td>commercial b&e</td>
+	</tr>
+	<tr>
+		<td>74</td>
+		<td>battery - shooting</td>
+	</tr>
+	<tr>
+		<td>75</td>
+		<td>immediate backup</td>
+	</tr>
+	<tr>
+		<td>76</td>
+		<td>bank alarm</td>
+	</tr>
+	<tr>
+		<td>77</td>
+		<td>house/business check</td>
+	</tr>
+	<tr>
+		<td>78</td>
+		<td>accident (general disturbance)</td>
+	</tr>
+	<tr>
+		<td>79</td>
+		<td>sick or injured person</td>
+	</tr>
+	<tr>
+		<td>80</td>
+		<td>nuisance animal</td>
+	</tr>
+	<tr>
+		<td>81</td>
+		<td>threats/assaults - armed</td>
+	</tr>
+	<tr>
+		<td>82</td>
+		<td>signal out</td>
+	</tr>
+	<tr>
+		<td>83</td>
+		<td>stalking</td>
+	</tr>
+	<tr>
+		<td>84</td>
+		<td>community orientated policing detail</td>
+	</tr>
+	<tr>
+		<td>85</td>
+		<td>escaped prisoner</td>
+	</tr>
+	<tr>
+		<td>86</td>
+		<td>d.p.a. available</td>
+	</tr>
+	<tr>
+		<td>87</td>
+		<td>vehicle alarm</td>
+	</tr>
+	<tr>
+		<td>88</td>
+		<td>hit and run with road blockage</td>
+	</tr>
+	<tr>
+		<td>89</td>
+		<td>home invasion</td>
+	</tr>
+	<tr>
+		<td>90</td>
+		<td>suspicious boat</td>
+	</tr>
+	<tr>
+		<td>91</td>
+		<td>stolen/lost tag</td>
+	</tr>
+	<tr>
+		<td>92</td>
+		<td>car jacking</td>
+	</tr>
+	<tr>
+		<td>93</td>
+		<td>kidnapping</td>
+	</tr>
+	<tr>
+		<td>94</td>
+		<td>hit and run (injuries)</td>
+	</tr>
+	<tr>
+		<td>95</td>
+		<td>reckless boat</td>
+	</tr>
+	<tr>
+		<td>96</td>
+		<td>drowning</td>
+	</tr>
+	<tr>
+		<td>97</td>
+		<td>arson fire</td>
+	</tr>
+	<tr>
+		<td>98</td>
+		<td>suspicious video</td>
+	</tr>
+	<tr>
+		<td>99</td>
+		<td>attempted rape</td>
+	</tr>
+	<tr>
+		<td>100</td>
+		<td>industrial accident</td>
+	</tr>
+	<tr>
+		<td>101</td>
+		<td>liquor law violation</td>
+	</tr>
+	<tr>
+		<td>102</td>
+		<td>stopping vehicle</td>
+	</tr>
+	<tr>
+		<td>103</td>
+		<td>trash dumping</td>
+	</tr>
+	<tr>
+		<td>104</td>
+		<td>designated patrol area - available</td>
+	</tr>
+	<tr>
+		<td>105</td>
+		<td>law enforcement officer escort</td>
+	</tr>
+	<tr>
+		<td>106</td>
+		<td>security checkpoint alarm</td>
+	</tr>
+	<tr>
+		<td>107</td>
+		<td>illegal fishing</td>
+	</tr>
+	<tr>
+		<td>108</td>
+		<td>residential burglary</td>
+	</tr>
+	<tr>
+		<td>109</td>
+		<td>auto burglary</td>
+	</tr>
+	<tr>
+		<td>110</td>
+		<td>commercial burglary</td>
+	</tr>
+	<tr>
+		<td>111</td>
+		<td>armed to person</td>
+	</tr>
+	<tr>
+		<td>112</td>
+		<td>strong arm to person</td>
+	</tr>
+	<tr>
+		<td>113</td>
+		<td>RESIDENTIAL BURGLARY</td>
+	</tr>
+	<tr>
+		<td>114</td>
+		<td>AUTO BURGLARY</td>
+	</tr>
+	<tr>
+		<td>115</td>
+		<td>STOLEN VEHICLE</td>
+	</tr>
+	<tr>
+		<td>116</td>
+		<td>COMMERCIAL BURGLARY</td>
+	</tr>
+	<tr>
+		<td>117</td>
+		<td>ARMED TO PERSON</td>
+	</tr>
+	<tr>
+		<td>118</td>
+		<td>STRONG ARM TO PERSON</td>
+	</tr>
+	<tr>
+		<td>119</td>
+		<td>CARJACKING</td>
+	</tr>
+	<tr>
+		<td>120</td>
+		<td>bad check passed</td>
+	</tr>
+	<tr>
+		<td>121</td>
+		<td>gambling</td>
+	</tr>
+	<tr>
+		<td>122</td>
+		<td>dead animal</td>
+	</tr>
+	<tr>
+		<td>123</td>
+		<td>bank robbery</td>
+	</tr>
+	<tr>
+		<td>124</td>
+		<td>suicide</td>
+	</tr>
+	<tr>
+		<td>125</td>
+		<td>designated patrol area</td>
+	</tr>
+	<tr>
+		<td>126</td>
+		<td>impersonating police officer</td>
+	</tr>
+	<tr>
+		<td>127</td>
+		<td>suspicious luggage</td>
+	</tr>
+	<tr>
+		<td>128</td>
+		<td>abandoned boat</td>
+	</tr>
+	<tr>
+		<td>129</td>
+		<td>airplane accident</td>
+	</tr>
+	<tr>
+		<td>130</td>
+		<td>rush-officer needs help</td>
+	</tr>
+	<tr>
+		<td>131</td>
+		<td>suspicious car/occupant armed</td>
+	</tr>
+	<tr>
+		<td>132</td>
+		<td>bomb explosion</td>
+	</tr>
+	<tr>
+		<td>133</td>
+		<td>murder</td>
+	</tr>
+	<tr>
+		<td>134</td>
+		<td>trespasser - armed</td>
+	</tr>
+	<tr>
+		<td>135</td>
+		<td>trespasser - drunk</td>
+	</tr>
+	<tr>
+		<td>136</td>
+		<td>drug violation - armed</td>
+	</tr>
+	<tr>
+		<td>137</td>
+		<td>bribery</td>
+	</tr>
+	<tr>
+		<td>138</td>
+		<td>fugitive from justice - armed</td>
+	</tr>
+	<tr>
+		<td>139</td>
+		<td>threats/assault</td>
+	</tr>
+	<tr>
+		<td>140</td>
+		<td>disturbance involving tow truck/driver</td>
+	</tr>
+	<tr>
+		<td>141</td>
+		<td>battery - fight in progress</td>
+	</tr>
+	<tr>
+		<td>142</td>
+		<td>designated patrol area - intersections</td>
+	</tr>
+	<tr>
+		<td>143</td>
+		<td>k-9 requested</td>
+	</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xml" href="reasons_style.xsl"?>
+<REASONS>
+	<REASON>
+		<ID>1</ID>
+		<DESC>suspicious incident</DESC>
+	</REASON>
+	<REASON>
+		<ID>2</ID>
+		<DESC>battery</DESC>
+	</REASON>
+	<REASON>
+		<ID>3</ID>
+		<DESC>stolen vehicle</DESC>
+	</REASON>
+	<REASON>
+		<ID>4</ID>
+		<DESC>general disturbance</DESC>
+	</REASON>
+	<REASON>
+		<ID>5</ID>
+		<DESC>suspicious person</DESC>
+	</REASON>
+	<REASON>
+		<ID>6</ID>
+		<DESC>rape</DESC>
+	</REASON>
+	<REASON>
+		<ID>7</ID>
+		<DESC>theft by shoplifting</DESC>
+	</REASON>
+	<REASON>
+		<ID>8</ID>
+		<DESC>threats/assualt</DESC>
+	</REASON>
+	<REASON>
+		<ID>9</ID>
+		<DESC>domestic disturbance</DESC>
+	</REASON>
+	<REASON>
+		<ID>10</ID>
+		<DESC>battery - cutting</DESC>
+	</REASON>
+	<REASON>
+		<ID>11</ID>
+		<DESC>person robbery</DESC>
+	</REASON>
+	<REASON>
+		<ID>12</ID>
+		<DESC>drunk pedestrian</DESC>
+	</REASON>
+	<REASON>
+		<ID>13</ID>
+		<DESC>residential break-and-enter</DESC>
+	</REASON>
+	<REASON>
+		<ID>14</ID>
+		<DESC>residential alarm</DESC>
+	</REASON>
+	<REASON>
+		<ID>15</ID>
+		<DESC>theft</DESC>
+	</REASON>
+	<REASON>
+		<ID>16</ID>
+		<DESC>commercial alarm</DESC>
+	</REASON>
+	<REASON>
+		<ID>17</ID>
+		<DESC>trespasser</DESC>
+	</REASON>
+	<REASON>
+		<ID>18</ID>
+		<DESC>threatening animal</DESC>
+	</REASON>
+	<REASON>
+		<ID>19</ID>
+		<DESC>disabled occupied vehicle</DESC>
+	</REASON>
+	<REASON>
+		<ID>20</ID>
+		<DESC>noise ordinance violation</DESC>
+	</REASON>
+	<REASON>
+		<ID>21</ID>
+		<DESC>recovered stolen vehicle</DESC>
+	</REASON>
+	<REASON>
+		<ID>22</ID>
+		<DESC>accident (minor)</DESC>
+	</REASON>
+	<REASON>
+		<ID>23</ID>
+		<DESC>commercial robbery</DESC>
+	</REASON>
+	<REASON>
+		<ID>24</ID>
+		<DESC>check the well being of</DESC>
+	</REASON>
+	<REASON>
+		<ID>25</ID>
+		<DESC>vandalism/criminal mischief</DESC>
+	</REASON>
+	<REASON>
+		<ID>26</ID>
+		<DESC>vehicle break-and-enter</DESC>
+	</REASON>
+	<REASON>
+		<ID>27</ID>
+		<DESC>911 hang up</DESC>
+	</REASON>
+	<REASON>
+		<ID>28</ID>
+		<DESC>abandoned vehicle</DESC>
+	</REASON>
+	<REASON>
+		<ID>29</ID>
+		<DESC>dead person</DESC>
+	</REASON>
+	<REASON>
+		<ID>30</ID>
+		<DESC>unknown trouble</DESC>
+	</REASON>
+	<REASON>
+		<ID>31</ID>
+		<DESC>suspicious vehicle</DESC>
+	</REASON>
+	<REASON>
+		<ID>32</ID>
+		<DESC>prowler</DESC>
+	</REASON>
+	<REASON>
+		<ID>33</ID>
+		<DESC>attempted suicide</DESC>
+	</REASON>
+	<REASON>
+		<ID>34</ID>
+		<DESC>accident with road blockage</DESC>
+	</REASON>
+	<REASON>
+		<ID>35</ID>
+		<DESC>accident (injuries)</DESC>
+	</REASON>
+	<REASON>
+		<ID>36</ID>
+		<DESC>obstruction on highway</DESC>
+	</REASON>
+	<REASON>
+		<ID>37</ID>
+		<DESC>general disturbance - armed</DESC>
+	</REASON>
+	<REASON>
+		<ID>38</ID>
+		<DESC>officer with prisoner</DESC>
+	</REASON>
+	<REASON>
+		<ID>39</ID>
+		<DESC>illegally parked cars</DESC>
+	</REASON>
+	<REASON>
+		<ID>40</ID>
+		<DESC>mentally-ill person (non-violent)</DESC>
+	</REASON>
+	<REASON>
+		<ID>41</ID>
+		<DESC>fugitive from justice</DESC>
+	</REASON>
+	<REASON>
+		<ID>42</ID>
+		<DESC>hit and run (minor)</DESC>
+	</REASON>
+	<REASON>
+		<ID>43</ID>
+		<DESC>weapons/armed</DESC>
+	</REASON>
+	<REASON>
+		<ID>44</ID>
+		<DESC>deviate sexual activities</DESC>
+	</REASON>
+	<REASON>
+		<ID>45</ID>
+		<DESC>solicitor</DESC>
+	</REASON>
+	<REASON>
+		<ID>46</ID>
+		<DESC>mentally-ill person (violent)</DESC>
+	</REASON>
+	<REASON>
+		<ID>47</ID>
+		<DESC>other sex crimes</DESC>
+	</REASON>
+	<REASON>
+		<ID>48</ID>
+		<DESC>man down</DESC>
+	</REASON>
+	<REASON>
+		<ID>49</ID>
+		<DESC>hitchhiker</DESC>
+	</REASON>
+	<REASON>
+		<ID>50</ID>
+		<DESC>ambulance escort</DESC>
+	</REASON>
+	<REASON>
+		<ID>51</ID>
+		<DESC>drug violation</DESC>
+	</REASON>
+	<REASON>
+		<ID>52</ID>
+		<DESC>fire</DESC>
+	</REASON>
+	<REASON>
+		<ID>53</ID>
+		<DESC>obscene/harassing phone calls</DESC>
+	</REASON>
+	<REASON>
+		<ID>54</ID>
+		<DESC>recovered missing person</DESC>
+	</REASON>
+	<REASON>
+		<ID>55</ID>
+		<DESC>reckless vehicle</DESC>
+	</REASON>
+	<REASON>
+		<ID>56</ID>
+		<DESC>non-emergency assistance</DESC>
+	</REASON>
+	<REASON>
+		<ID>57</ID>
+		<DESC>prostitution</DESC>
+	</REASON>
+	<REASON>
+		<ID>58</ID>
+		<DESC>door alarm</DESC>
+	</REASON>
+	<REASON>
+		<ID>59</ID>
+		<DESC>leo escort</DESC>
+	</REASON>
+	<REASON>
+		<ID>60</ID>
+		<DESC>fraud-counterfeit</DESC>
+	</REASON>
+	<REASON>
+		<ID>61</ID>
+		<DESC>school zone crossing</DESC>
+	</REASON>
+	<REASON>
+		<ID>62</ID>
+		<DESC>recovered stolen/lost tag</DESC>
+	</REASON>
+	<REASON>
+		<ID>63</ID>
+		<DESC>missing person - juvenile</DESC>
+	</REASON>
+	<REASON>
+		<ID>64</ID>
+		<DESC>child abuse</DESC>
+	</REASON>
+	<REASON>
+		<ID>65</ID>
+		<DESC>missing person - adult</DESC>
+	</REASON>
+	<REASON>
+		<ID>66</ID>
+		<DESC>direct traffic</DESC>
+	</REASON>
+	<REASON>
+		<ID>67</ID>
+		<DESC>bomb threat</DESC>
+	</REASON>
+	<REASON>
+		<ID>68</ID>
+		<DESC>child neglect</DESC>
+	</REASON>
+	<REASON>
+		<ID>69</ID>
+		<DESC>hold-up alarm</DESC>
+	</REASON>
+	<REASON>
+		<ID>70</ID>
+		<DESC>general investigation</DESC>
+	</REASON>
+	<REASON>
+		<ID>71</ID>
+		<DESC>lost/found property</DESC>
+	</REASON>
+	<REASON>
+		<ID>72</ID>
+		<DESC>drunk driver</DESC>
+	</REASON>
+	<REASON>
+		<ID>73</ID>
+		<DESC>commercial break-and-enter</DESC>
+	</REASON>
+	<REASON>
+		<ID>74</ID>
+		<DESC>battery - shooting</DESC>
+	</REASON>
+	<REASON>
+		<ID>75</ID>
+		<DESC>immediate backup</DESC>
+	</REASON>
+	<REASON>
+		<ID>76</ID>
+		<DESC>bank alarm</DESC>
+	</REASON>
+	<REASON>
+		<ID>77</ID>
+		<DESC>house/business check</DESC>
+	</REASON>
+	<REASON>
+		<ID>78</ID>
+		<DESC>accident (general disturbance)</DESC>
+	</REASON>
+	<REASON>
+		<ID>79</ID>
+		<DESC>sick or injured person</DESC>
+	</REASON>
+	<REASON>
+		<ID>80</ID>
+		<DESC>nuisance animal</DESC>
+	</REASON>
+	<REASON>
+		<ID>81</ID>
+		<DESC>threats/assaults - armed</DESC>
+	</REASON>
+	<REASON>
+		<ID>82</ID>
+		<DESC>signal out</DESC>
+	</REASON>
+	<REASON>
+		<ID>83</ID>
+		<DESC>stalking</DESC>
+	</REASON>
+	<REASON>
+		<ID>84</ID>
+		<DESC>community orientated policing detail</DESC>
+	</REASON>
+	<REASON>
+		<ID>85</ID>
+		<DESC>escaped prisoner</DESC>
+	</REASON>
+	<REASON>
+		<ID>86</ID>
+		<DESC>d.p.a. available</DESC>
+	</REASON>
+	<REASON>
+		<ID>87</ID>
+		<DESC>vehicle alarm</DESC>
+	</REASON>
+	<REASON>
+		<ID>88</ID>
+		<DESC>hit and run with road blockage</DESC>
+	</REASON>
+	<REASON>
+		<ID>89</ID>
+		<DESC>home invasion</DESC>
+	</REASON>
+	<REASON>
+		<ID>90</ID>
+		<DESC>suspicious boat</DESC>
+	</REASON>
+	<REASON>
+		<ID>91</ID>
+		<DESC>stolen/lost tag</DESC>
+	</REASON>
+	<REASON>
+		<ID>92</ID>
+		<DESC>car jacking</DESC>
+	</REASON>
+	<REASON>
+		<ID>93</ID>
+		<DESC>kidnapping</DESC>
+	</REASON>
+	<REASON>
+		<ID>94</ID>
+		<DESC>hit and run (injuries)</DESC>
+	</REASON>
+	<REASON>
+		<ID>95</ID>
+		<DESC>reckless boat</DESC>
+	</REASON>
+	<REASON>
+		<ID>96</ID>
+		<DESC>drowning</DESC>
+	</REASON>
+	<REASON>
+		<ID>97</ID>
+		<DESC>arson fire</DESC>
+	</REASON>
+	<REASON>
+		<ID>98</ID>
+		<DESC>suspicious video</DESC>
+	</REASON>
+	<REASON>
+		<ID>99</ID>
+		<DESC>attempted rape</DESC>
+	</REASON>
+	<REASON>
+		<ID>100</ID>
+		<DESC>industrial accident</DESC>
+	</REASON>
+	<REASON>
+		<ID>101</ID>
+		<DESC>liquor law violation</DESC>
+	</REASON>
+	<REASON>
+		<ID>102</ID>
+		<DESC>stopping vehicle</DESC>
+	</REASON>
+	<REASON>
+		<ID>103</ID>
+		<DESC>trash dumping</DESC>
+	</REASON>
+	<REASON>
+		<ID>104</ID>
+		<DESC>designated patrol area - available</DESC>
+	</REASON>
+	<REASON>
+		<ID>105</ID>
+		<DESC>law enforcement officer escort</DESC>
+	</REASON>
+	<REASON>
+		<ID>106</ID>
+		<DESC>security checkpoint alarm</DESC>
+	</REASON>
+	<REASON>
+		<ID>107</ID>
+		<DESC>illegal fishing</DESC>
+	</REASON>
+	<REASON>
+		<ID>108</ID>
+		<DESC>residential burglary</DESC>
+	</REASON>
+	<REASON>
+		<ID>109</ID>
+		<DESC>auto burglary</DESC>
+	</REASON>
+	<REASON>
+		<ID>110</ID>
+		<DESC>commercial burglary</DESC>
+	</REASON>
+	<REASON>
+		<ID>111</ID>
+		<DESC>armed to person</DESC>
+	</REASON>
+	<REASON>
+		<ID>112</ID>
+		<DESC>strong arm to person</DESC>
+	</REASON>
+	<REASON>
+		<ID>113</ID>
+		<DESC>RESIDENTIAL BURGLARY</DESC>
+	</REASON>
+	<REASON>
+		<ID>114</ID>
+		<DESC>AUTO BURGLARY</DESC>
+	</REASON>
+	<REASON>
+		<ID>115</ID>
+		<DESC>STOLEN VEHICLE</DESC>
+	</REASON>
+	<REASON>
+		<ID>116</ID>
+		<DESC>COMMERCIAL BURGLARY</DESC>
+	</REASON>
+	<REASON>
+		<ID>117</ID>
+		<DESC>ARMED TO PERSON</DESC>
+	</REASON>
+	<REASON>
+		<ID>118</ID>
+		<DESC>STRONG ARM TO PERSON</DESC>
+	</REASON>
+	<REASON>
+		<ID>119</ID>
+		<DESC>CARJACKING</DESC>
+	</REASON>
+	<REASON>
+		<ID>120</ID>
+		<DESC>bad check passed</DESC>
+	</REASON>
+	<REASON>
+		<ID>121</ID>
+		<DESC>gambling</DESC>
+	</REASON>
+	<REASON>
+		<ID>122</ID>
+		<DESC>dead animal</DESC>
+	</REASON>
+	<REASON>
+		<ID>123</ID>
+		<DESC>bank robbery</DESC>
+	</REASON>
+	<REASON>
+		<ID>124</ID>
+		<DESC>suicide</DESC>
+	</REASON>
+	<REASON>
+		<ID>125</ID>
+		<DESC>designated patrol area</DESC>
+	</REASON>
+	<REASON>
+		<ID>126</ID>
+		<DESC>impersonating police officer</DESC>
+	</REASON>
+	<REASON>
+		<ID>127</ID>
+		<DESC>suspicious luggage</DESC>
+	</REASON>
+	<REASON>
+		<ID>128</ID>
+		<DESC>abandoned boat</DESC>
+	</REASON>
+	<REASON>
+		<ID>129</ID>
+		<DESC>airplane accident</DESC>
+	</REASON>
+	<REASON>
+		<ID>130</ID>
+		<DESC>rush-officer needs help</DESC>
+	</REASON>
+	<REASON>
+		<ID>131</ID>
+		<DESC>suspicious car/occupant armed</DESC>
+	</REASON>
+	<REASON>
+		<ID>132</ID>
+		<DESC>bomb explosion</DESC>
+	</REASON>
+	<REASON>
+		<ID>133</ID>
+		<DESC>murder</DESC>
+	</REASON>
+	<REASON>
+		<ID>134</ID>
+		<DESC>trespasser - armed</DESC>
+	</REASON>
+	<REASON>
+		<ID>135</ID>
+		<DESC>trespasser - drunk</DESC>
+	</REASON>
+	<REASON>
+		<ID>136</ID>
+		<DESC>drug violation - armed</DESC>
+	</REASON>
+	<REASON>
+		<ID>137</ID>
+		<DESC>bribery</DESC>
+	</REASON>
+	<REASON>
+		<ID>138</ID>
+		<DESC>fugitive from justice - armed</DESC>
+	</REASON>
+	<REASON>
+		<ID>139</ID>
+		<DESC>threats/assault</DESC>
+	</REASON>
+	<REASON>
+		<ID>140</ID>
+		<DESC>disturbance involving tow truck/driver</DESC>
+	</REASON>
+	<REASON>
+		<ID>141</ID>
+		<DESC>battery - fight in progress</DESC>
+	</REASON>
+	<REASON>
+		<ID>142</ID>
+		<DESC>designated patrol area - intersections</DESC>
+	</REASON>
+	<REASON>
+		<ID>143</ID>
+		<DESC>k-9 requested</DESC>
+	</REASON>
+</REASONS>
