@@ -3,11 +3,28 @@
 
 ## Motivation
 
-I wanted an Orange County equivalent of [this Hillsborough County website](http://gis.hcso.tampa.fl.us/PublicGIS/CrimeMapping/).
+I wanted an Orange County equivalent of [this Hillsborough County website](http://gis.hcso.tampa.fl.us/PublicGIS/CrimeMapping/), i.e., 
+I wanted to be able to enter an O.C. address or landmark and get a plot of criminal activity within a given radius of that address/landmark.
+Here I had access to the police calls data rather than the actual criminal activity.
 
 ## Technologies
 
 [https://leanpub.com/rprogramming](R), [R Studio](https://www.rstudio.com/), [Shiny R server](http://shiny.rstudio.com/articles/), [Leaflet for R](http://rstudio.github.io/leaflet/).
+
+## Features
+
+By default, the app plots the police calls in a 0.5 mile radius around a large intersection downtown:
+
+![Alt](docs_images/Radius_1.JPG?raw=true "Default")
+
+You can enter a landmark in the search box, e.g., Lake Eola Park, and click Search:
+
+![Alt](docs_images/Radius_2.JPG?raw=true "Lake Eola")
+
+You can also click on the map (outside the circle) and click Search and the app will return the police calls centered around the location.
+Here you can see I clicked on the Lynx Central Station:
+
+![Alt](docs_images/Radius_3.JPG?raw=true "Lynx Central Station")
 
 ## References
 
