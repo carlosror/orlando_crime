@@ -73,9 +73,9 @@ The density maps take a few seconds to display. They are faceted similar to the 
 ![alt text](orlando-pc/faceted_result_3.PNG "Faceted map density")
 
 
-### Summary
+### Table
 
-The summary just tabulates the crime types by time period.
+The Table tab does what one expects it to: tabulate the crime types, faceted in the same way the bar plots are.
 
 ## References
 
