@@ -13,7 +13,7 @@ Here I had access to the police calls data rather than the actual criminal activ
 
 ## Features
 
-### Radius Search
+### Radius search
 
 By default, the app plots the police calls in a 0.5 mile radius around a large intersection downtown:
 
@@ -53,6 +53,29 @@ dist_equi <- function (long1, lat1, long2, lat2) {
         return(R * sqrt(x*x + y*y) / 1609.34)
     }
 ```
+
+### Bar plots
+
+The bar plots (and the density maps) are faceted according to the input selection. In order to keep the tables readable, the top six crime types are used.
+
+The following shows a result of crimes on Mondays, Wednesdays, and Fridays that took place during the early morning and evening time periods, faceted by day of the week
+
+![alt text](faceted_inputs_1.png "Faceted inputs")  ![alt text](faceted_result_1.png "Faceted results")    
+<br>
+The same crime set, now faceted by time of day
+
+![alt text](faceted_inputs_2.png "Faceted inputs")  ![alt text](faceted_result_2.png "Faceted results")
+
+### Density maps
+
+The density maps take a few seconds to display. They are faceted similar to the bar plots
+
+![alt text](faceted_result_3.png "Faceted map density")
+
+
+### Summary
+
+The summary just tabulates the crime types by time period.
 
 ## References
 
