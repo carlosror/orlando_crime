@@ -1,5 +1,5 @@
 ## URL
-[https://carlosgg.shinyapps.io/orlando-pc-map/](https://carlosgg.shinyapps.io/orlando-pc-map/, "Orlando police calls map")
+[https://carlosgg.shinyapps.io/orlando-pc-map/](https://carlosgg.shinyapps.io/orlando-pc-map/ "Orlando police calls map")
 
 ## Motivation
 
@@ -9,7 +9,7 @@ Here I had access to the police calls data rather than the actual criminal activ
 
 ## Technologies
 
-[https://leanpub.com/rprogramming](R), [R Studio](https://www.rstudio.com/), [Shiny R server](http://shiny.rstudio.com/articles/), [Leaflet for R](http://rstudio.github.io/leaflet/).
+[R](https://leanpub.com/rprogramming), [R Studio](https://www.rstudio.com/), [Shiny R server](http://shiny.rstudio.com/articles/), [Leaflet for R](http://rstudio.github.io/leaflet/).
 
 ## Features
 
