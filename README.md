@@ -9,7 +9,7 @@ Here I had access to the police calls data rather than the actual criminal activ
 
 ## Technologies
 
-[R](https://leanpub.com/rprogramming), [R Studio](https://www.rstudio.com/), [Shiny R server](http://shiny.rstudio.com/articles/), [Leaflet for R](http://rstudio.github.io/leaflet/).
+[R](https://leanpub.com/rprogramming), [R Studio](https://www.rstudio.com/), [Shiny R server](http://shiny.rstudio.com/articles/), [Leaflet for R](http://rstudio.github.io/leaflet/), [ggmap](https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf).
 
 ## Features
 
@@ -33,7 +33,7 @@ Then, using a subset() filter, the app finds the police calls within the given r
 The distance is computed using the [equirectangular approximation](http://www.movable-type.co.uk/scripts/latlong.html) to the distance between 2 points in a sphere, for every point in that year's database and the location entered. This approximation should be fine for intra-city distances and is much more computationally efficient than the Haversine formula. If the location entered is a map-click, then there's no need for the geocode step since the click returns the coordinates.
 
 ```
-dist_equi <- function (long1, lat1, long2, lat2) 
+dist_equi <- function (long1, lat1, long2, lat2) {
         
         R = 6371000 # radius of the Earth
         
@@ -53,7 +53,6 @@ dist_equi <- function (long1, lat1, long2, lat2)
         return(R * sqrt(x*x + y*y) / 1609.34)
     }
 ```
-
 
 ## References
 
