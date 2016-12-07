@@ -13,6 +13,34 @@ Here I had access to the police calls data rather than the actual criminal activ
 
 ## Features
 
+### Radius Search
+
+The app takes the location entered and gets its longitude-latitude coordinate pair from google using ggmap's geocode() function. 
+Then, using a subset() filter, the app finds the police calls within the given radius (0.5 mi., 1.0 mi., etc.) of the address.
+The distance is computed using the [equirectangular approximation](http://www.movable-type.co.uk/scripts/latlong.html) to the distance between 2 points in a sphere, for every point in that year's database and the location entered. If the location entered is a map-click, then there's no need for the geocode step since the click returns the coordinates.
+
+```
+dist_equi <- function (long1, lat1, long2, lat2) 
+        
+        R = 6371000 # radius of the Earth
+        
+        # Convert latitudes to radians
+        theta1 = lat1 * pi / 180.0
+        theta2 = lat2 * pi / 180.0
+        
+        # Compute difference between two points and convert to radians
+        # delta_theta = (lat2 - lat1) * pi / 180.0 
+        delta_theta = theta2 - theta1
+        delta_lambda = (long2 - long1) * pi / 180.0
+        
+        x = delta_lambda * cos((theta1 + theta2)/2.0)
+        y = delta_theta
+        
+        # Compute distance, convert it to miles and return it
+        return(R * sqrt(x*x + y*y) / 1609.34)
+    }
+```
+
 By default, the app plots the police calls in a 0.5 mile radius around a large intersection downtown:
 
 ![Alt](docs_images/Radius_1.JPG?raw=true "Default")
