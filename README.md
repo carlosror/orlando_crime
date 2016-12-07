@@ -15,9 +15,22 @@ Here I had access to the police calls data rather than the actual criminal activ
 
 ### Radius Search
 
+By default, the app plots the police calls in a 0.5 mile radius around a large intersection downtown:
+
+![Alt](docs_images/Radius_1.JPG?raw=true "Default")
+
+You can enter a landmark in the search box, e.g., Lake Eola Park, and click Search:
+
+![Alt](docs_images/Radius_2.JPG?raw=true "Lake Eola")
+
+You can also click on the map (outside the circle) and click Search and the app will return the police calls centered around the location.
+Here you can see I clicked on the Lynx Central Station:
+
+![Alt](docs_images/Radius_3.JPG?raw=true "Lynx Central Station")
+
 The app takes the location entered and gets its longitude-latitude coordinate pair from google using ggmap's geocode() function. 
-Then, using a subset() filter, the app finds the police calls within the given radius (0.5 mi., 1.0 mi., etc.) of the address.
-The distance is computed using the [equirectangular approximation](http://www.movable-type.co.uk/scripts/latlong.html) to the distance between 2 points in a sphere, for every point in that year's database and the location entered. If the location entered is a map-click, then there's no need for the geocode step since the click returns the coordinates.
+Then, using a subset() filter, the app finds the police calls within the given radius (0.5 mi., 1.0 mi., etc.) of the location.
+The distance is computed using the [equirectangular approximation](http://www.movable-type.co.uk/scripts/latlong.html) to the distance between 2 points in a sphere, for every point in that year's database and the location entered. This approximation should be fine for intra-city distances and is much more computationally efficient than the Haversine formula. If the location entered is a map-click, then there's no need for the geocode step since the click returns the coordinates.
 
 ```
 dist_equi <- function (long1, lat1, long2, lat2) 
@@ -41,18 +54,6 @@ dist_equi <- function (long1, lat1, long2, lat2)
     }
 ```
 
-By default, the app plots the police calls in a 0.5 mile radius around a large intersection downtown:
-
-![Alt](docs_images/Radius_1.JPG?raw=true "Default")
-
-You can enter a landmark in the search box, e.g., Lake Eola Park, and click Search:
-
-![Alt](docs_images/Radius_2.JPG?raw=true "Lake Eola")
-
-You can also click on the map (outside the circle) and click Search and the app will return the police calls centered around the location.
-Here you can see I clicked on the Lynx Central Station:
-
-![Alt](docs_images/Radius_3.JPG?raw=true "Lynx Central Station")
 
 ## References
 
