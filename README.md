@@ -60,17 +60,17 @@ The bar plots (and the density maps) are faceted according to the input selectio
 
 The following shows a result of crimes on Mondays, Wednesdays, and Fridays that took place during the early morning and evening time periods, faceted by day of the week
 
-![alt text](faceted_inputs_1.png "Faceted inputs")  ![alt text](faceted_result_1.png "Faceted results")    
+![alt text](orlando-pc/faceted_inputs_1.PNG "Faceted inputs")  ![alt text](orlando-pc/faceted_result_1.PNG "Faceted results")    
 <br>
 The same crime set, now faceted by time of day
 
-![alt text](faceted_inputs_2.png "Faceted inputs")  ![alt text](faceted_result_2.png "Faceted results")
+![alt text](orlando-pc/faceted_inputs_2.PNG "Faceted inputs")  ![alt text](orlando-pc/faceted_result_2.PNG "Faceted results")
 
 ### Density maps
 
 The density maps take a few seconds to display. They are faceted similar to the bar plots
 
-![alt text](faceted_result_3.png "Faceted map density")
+![alt text](orlando-pc/faceted_result_3.PNG "Faceted map density")
 
 
 ### Summary
